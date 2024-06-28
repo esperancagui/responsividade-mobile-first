@@ -1,0 +1,15 @@
+@charset "UTF-8";
+@import url("styles/header.css");
+
+:root{
+    --cor-de-fundo:#EBECEE;
+    --branco-primario:#FFFFFF;
+    --azul-primario: #002F52;
+    --azul-secundario: #326589;
+    --laranja: #EB9B00;
+    
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+}
