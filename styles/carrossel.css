@@ -8,3 +8,14 @@
     font-weight: 700;
     font-family: var(--fonte-principal);
 }
+
+
+.livro {
+    width: 100%;
+    
+}
+
+.swiper-pagination{
+    position: initial;
+    margin: 0.5em;
+}
