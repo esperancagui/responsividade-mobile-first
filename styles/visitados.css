@@ -1,0 +1,34 @@
+.visitados{
+    background: var(--azul-degrade);
+    padding: 1em 1em 0 1em;
+    text-align: center;
+    font-family: var(--fonte-principal);
+    color: var(--branco-primario);
+}
+
+.visitados__titulo{
+    text-transform: uppercase;
+    font-weight: 300;
+    padding: 1em 0;
+}
+
+.visitados__lista{
+    padding: 1em 0;
+}
+
+.visitados__item{
+    display: inline-block;
+    padding: 1.5em 0.4em;
+}
+
+.visitados__item__link{
+    text-decoration: none;
+    color: var(--branco-primario);
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+
+    background-color: var(--laranja);
+    padding: 1em;
+}
+
