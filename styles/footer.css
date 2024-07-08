@@ -1,0 +1,13 @@
+.rodape{
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--preto);
+    padding: 1.5em;
+    background-color: var(--branco-primario);
+    border-top: 1px solid var(--cinza);
+}
+
+@media screen and (min-width: 1024px){
+    
+}

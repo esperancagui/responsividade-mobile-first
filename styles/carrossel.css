@@ -25,4 +25,14 @@
         font-size: 26px;
         padding-top: 2em;
     }
+
+    .swiper-pagination{
+        margin: 2em 0 2em 0;
+    }
+
+    .swiper{
+        width: 60%;
+    }
+
+    
 }
