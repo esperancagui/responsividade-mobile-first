@@ -79,3 +79,24 @@
         margin: 2em auto;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .card__carrossel{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding: 2em 10em;
+        
+    }
+
+    .swiper-pagination{
+        margin: 2em 0 2em 0;
+    }
+
+    .swiper{
+        width: 60%;
+    }
+
+    .card{
+        width: 80%;
+    }
+}
