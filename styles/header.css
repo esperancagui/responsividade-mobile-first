@@ -105,4 +105,34 @@
     .opcoes__botao{
         display: none;
     }
+    .item__link{
+        display: none;
+    }
 } 
+
+@media screen and (min-width: 1728px){
+    
+    .cabecalho{
+        padding: 0 1em 0 2em;
+    }
+    
+    .cabecalho__item{
+        display: flex;
+        align-items: center;
+        gap: 0.5em;
+        font-size: 20px;
+        text-decoration: none;
+        color: var(--preto);
+        margin-right: 1em ;
+        
+    }
+
+    .item__link{
+        display: inline;
+    }
+
+    .opcoes{
+        margin-right: auto;
+        margin-left: 3em;
+    }
+}
