@@ -46,10 +46,10 @@
         margin-bottom: 1em;
     }
     .banner__pesquisa{
-        width: 50%;
+        width: 30%;
         margin-top: 1em;
     }
     .banner__pesquisa::placeholder{
-        background-position: 5em;
+        background-position: 8em;
     }
 }

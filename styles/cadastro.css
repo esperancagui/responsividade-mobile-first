@@ -57,3 +57,11 @@
     }
   
 }
+@media screen and (min-width: 1728px){
+    .cadastro{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding: 5em 34em;
+       
+    }
+}

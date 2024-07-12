@@ -47,3 +47,22 @@
         color: var(--cinza-escuro);
     }
 }
+
+@media screen and (min-width: 1728px){
+    .rodape{
+        display: grid;
+        grid-template-columns: 25% 75%;
+        padding: 5em 1em;
+    }
+    .rodape__titulo{
+        text-align: center;
+    }
+    .rodape__lista{
+        display: grid;
+        grid-template-columns: 32% 32% 32%;
+    }
+    .rodape__lista__bloco{
+        border-left: 1px solid var(--cinza);
+        padding-left: 1em;
+    }
+}
